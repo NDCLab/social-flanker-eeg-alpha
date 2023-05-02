@@ -82,7 +82,7 @@ for idx, file in enumerate(compute_list):
     incong_corr_nonsocial_current = beh_current_nonsocial_valid[(beh_current_nonsocial_valid['congruent'] == 0)
                                                                 & (beh_current_nonsocial_valid['accuracy'] == 1.0)]
     incong_err_nonsocial_current = beh_current_nonsocial_valid[(beh_current_nonsocial_valid['congruent'] == 0)
-                                                                & (beh_current_nonsocial_valid['accuracy'] == 0.0)]
+                                                               & (beh_current_nonsocial_valid['accuracy'] == 0.0)]
     cong_corr_nonsocial_current = beh_current_nonsocial_valid[(beh_current_nonsocial_valid['congruent'] == 1)
                                                               & (beh_current_nonsocial_valid['accuracy'] == 1.0)]
     cong_err_nonsocial_current = beh_current_nonsocial_valid[(beh_current_nonsocial_valid['congruent'] == 1)
@@ -196,4 +196,3 @@ for idx, file in enumerate(compute_list):
 
 # final_tabulated_df.to_csv('/Users/yanbinniu/Projects/social_flanker_eeg/script/process_beh/test.csv', index=False)
 final_tabulated_df.to_csv('/home/data/NDClab/datasets/social-flanker-eeg-dataset/code/sfe_postprocessing/process_beh/beh_all.csv', index=False)
-
