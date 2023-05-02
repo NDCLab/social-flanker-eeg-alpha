@@ -196,3 +196,4 @@ for idx, file in enumerate(compute_list):
 
 # final_tabulated_df.to_csv('/Users/yanbinniu/Projects/social_flanker_eeg/script/process_beh/test.csv', index=False)
 final_tabulated_df.to_csv('/home/data/NDClab/datasets/social-flanker-eeg-dataset/code/sfe_postprocessing/process_beh/beh_all.csv', index=False)
+
