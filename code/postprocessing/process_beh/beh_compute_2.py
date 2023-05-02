@@ -31,6 +31,7 @@ def rt_compute(x):
         res = ast.literal_eval(x)
         return float(res[0])
 
+
 # social and nonsocial stim_list
 nonsocial_stim_list = ['41', '42', '43', '44']
 social_stim_list = ['51', '52', '53', '54']
